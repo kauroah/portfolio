@@ -1,26 +1,76 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @media (prefers-color-scheme: light) {
-      .background { fill: black; }
-      .foreground { fill: white; }
-    }
-    @media (prefers-color-scheme: dark) {
-      .background { fill: white; }
-      .foreground { fill: black; }
-    }
-  </style>
-  <g clip-path="url(#clip0_7960_43945)">
-    <rect class="background" width="180" height="180" rx="37" />
-    <g style="transform: scale(95%); transform-origin: center">
-      <path class="foreground"
-        d="M101.141 53H136.632C151.023 53 162.689 64.6662 162.689 79.0573V112.904H148.112V79.0573C148.112 78.7105 148.098 78.3662 148.072 78.0251L112.581 112.898C112.701 112.902 112.821 112.904 112.941 112.904H148.112V126.672H112.941C98.5504 126.672 86.5638 114.891 86.5638 100.5V66.7434H101.141V100.5C101.141 101.15 101.191 101.792 101.289 102.422L137.56 66.7816C137.255 66.7563 136.945 66.7434 136.632 66.7434H101.141V53Z" />
-      <path class="foreground"
-        d="M65.2926 124.136L14 66.7372H34.6355L64.7495 100.436V66.7372H80.1365V118.47C80.1365 126.278 70.4953 129.958 65.2926 124.136Z" />
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Ahmed Flutter Developer Icon">
   <defs>
-    <clipPath id="clip0_7960_43945">
-      <rect width="180" height="180" fill="white" />
-    </clipPath>
+    <linearGradient id="bg" x1="80" y1="40" x2="440" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#54C8FF"/>
+      <stop offset="0.55" stop-color="#2F6BFF"/>
+      <stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="35%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0B1020" flood-opacity="0.35"/>
+    </filter>
+
+    <filter id="inner" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset dx="0" dy="6"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="arithmetic" k2="-1" k3="1"/>
+    </filter>
   </defs>
+
+  <!-- Outer rounded square -->
+  <rect x="40" y="40" width="432" height="432" rx="112" fill="url(#bg)" filter="url(#softShadow)"/>
+
+  <!-- Soft highlight -->
+  <circle cx="190" cy="150" r="190" fill="url(#glow)"/>
+
+  <!-- Subtle inner glass -->
+  <rect x="84" y="84" width="344" height="344" rx="96" fill="#FFFFFF" opacity="0.08" filter="url(#inner)"/>
+
+  <!-- Code brackets -->
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.92" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <!-- left bracket -->
+    <path d="M170 188 L130 256 L170 324"/>
+    <!-- right bracket -->
+    <path d="M342 188 L382 256 L342 324"/>
+  </g>
+
+  <!-- Stylized A -->
+  <g fill="#FFFFFF">
+    <!-- main A shape -->
+    <path d="M256 150
+             C252 150 248 152 246 156
+             L170 360
+             C168 366 172 372 178 374
+             C184 376 190 372 192 366
+             L210 318
+             H302
+             L320 366
+             C322 372 328 376 334 374
+             C340 372 344 366 342 360
+             L266 156
+             C264 152 260 150 256 150
+             Z
+             M230 284
+             L256 214
+             L282 284
+             Z" opacity="0.95"/>
+
+    <!-- crossbar accent -->
+    <rect x="212" y="304" width="88" height="16" rx="8" opacity="0.9"/>
+  </g>
+
+  <!-- Name tag -->
+  <g opacity="0.95">
+    <rect x="150" y="392" width="212" height="56" rx="20" fill="#0B1020" opacity="0.22"/>
+    <text x="256" y="430" text-anchor="middle"
+          font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+          font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="1.5">
+      AHMED
+    </text>
+  </g>
 </svg>

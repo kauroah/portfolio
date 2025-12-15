@@ -72,7 +72,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$
 ;
 ;
 const metadata = {
-    title: "Ahmed Abdelhady - Flutter Developer",
+    title: "Ahmed Abdelgaffar - Flutter Developer",
     description: "Flutter & Mobile Developer with 1+ year experience building cross-platform applications",
     generator: "v0.app",
     icons: {
