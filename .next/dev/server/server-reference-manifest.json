@@ -1,0 +1,21 @@
+{
+  "node": {
+    "40213127df03f8a54fbf96578f392cfc5bfff1d378": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/send-email.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "sendEmail",
+          "filename": "app/actions/send-email.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "app/actions/send-email.ts",
+      "exportedName": "sendEmail"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "Xqr7WGgfm0b7r4wmF4wGyCESaHwJygrX+w03tnDO3Z0="
+}
