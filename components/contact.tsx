@@ -170,7 +170,7 @@ export function Contact() {
       </div>
 
       <footer className="mt-20 pt-8 border-t text-center text-sm text-muted-foreground">
-        <p>© 2025 Ahmed Abdelhady. Built with Next.js & Tailwind CSS.</p>
+        <p>© 2025 Ahmed Abdelgaffar. Built with Next.js & Tailwind CSS.</p>
       </footer>
     </section>
   )

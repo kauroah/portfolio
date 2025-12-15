@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ahmed Abdelhady - Flutter Developer",
+  title: "Ahmed Abdelgaffar - Flutter Developer",
   description: "Flutter & Mobile Developer with 1+ year experience building cross-platform applications",
   generator: "v0.app",
   icons: {

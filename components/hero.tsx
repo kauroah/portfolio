@@ -12,7 +12,7 @@ export function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance animate-in fade-in zoom-in-50 duration-1000">
-          Ahmed Abdelhady
+          Ahmed Abdelgaffar
         </h1>
 
         <p
